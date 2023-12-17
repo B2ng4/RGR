@@ -38,7 +38,7 @@ def bot_message(message):
 
         elif message.text == "Задать вопрос":
             bot.send_message(message.chat.id, "Запишите ваш вопрос")
-            
+
             bot.send_message(message.chat.id, "Ваш запрос отправлен")
 
 
